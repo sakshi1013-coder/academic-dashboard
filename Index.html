@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITM Academic Journey Dashboard</title>
+  <link href="Style.css" type="text/css" rel="stylesheet">
+   <link href="fontawesome-free-6.7.2-web/css/all.css" rel="stylesheet">
+</head>
+
+<body style="background-image: url('Untitled\ design\ \(1\).jpg');">
+
+<div class="header">
+  <div class="title">
+<img src="isu-logo.jpg" alt="">
+  <header>
+    Academic Journey Dashboard
+    <p>login/signup ➜</p>
+  </header>
+  
+  </div>
+   <div class="icon-bar">
+    <i class="fa-regular fa-user"></i>
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+</div>
+
+ <section class="sem1">
+<h2>Semester 1:</h2>
+<details >
+  <summary>Courses</summary>
+  <label>Soft Skills</label>
+  <input type="checkbox"><br>
+  <label>Python</label>
+  <input type="checkbox">
+  <label>C++</label>
+  <input type="checkbox">
+  <label>No-Code</label>
+  <input type="checkbox">
+  <label>Mathematics</label>
+  <input type="checkbox">
+  <label>Computer Science Fundamentals</label>
+  <input type="checkbox">
+</details>
+<details >
+  <summary> Upcoming Task List</summary>
+  <ol id="task-list">
+        <li>Project Presentation - <span>Due: 2025-06-01</span></li>
+      </ol>
+      <div class="task-inputs">
+        <input type="text" id="new-task" placeholder="Task description">
+        <input type="date" id="due-date">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="task-progress"></div>
+      </div>
+</details>
+ 
+ </section>
+
+ <section class="sem2">
+  <h2>Semester 2:</h2>
+<details >
+  <summary>Courses</summary>
+  <label>Java</label>
+  <input type="checkbox"><br>
+  <label>DSA</label>
+  <input type="checkbox">
+  <label>DBMS</label>
+  <input type="checkbox">
+  <label>Computer Networking</label>
+  <input type="checkbox">
+  <label>Figma</label>
+  <input type="checkbox">
+  <label>Html-Css</label>
+  <input type="checkbox">
+  <label>JavaScript</label>
+  <input type="checkbox">
+</details>
+<details >
+  <summary> Upcoming Task List</summary>
+  <ol id="task-list">
+        <li>Project Presentation - <span>Due: 2025-06-01</span></li>
+      </ol>
+      <div class="task-inputs">
+        <input type="text" id="new-task" placeholder="Task description">
+        <input type="date" id="due-date">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="task-progress"></div>
+      </div>
+</details>
+ </section>
+
+  <section class="sem3">
+    <h2>Semester 3:</h2>
+<details >
+  <summary>Courses</summary>
+  <label>NodeJs</label>
+  <input type="checkbox"><br>
+  <label>ExpressJs</label>
+  <input type="checkbox">
+  <label>MongoDB</label>
+  <input type="checkbox">
+  <label>FireBase</label>
+  <input type="checkbox">
+  <label>PostgreSQL</label>
+  <input type="checkbox">
+</details>
+<details >
+  <summary> Upcoming Task List</summary>
+ <ol id="task-list">
+        <li>Project Presentation - <span>Due: 2025-06-01</span></li>
+      </ol>
+      <div class="task-inputs">
+        <input type="text" id="new-task" placeholder="Task description">
+        <input type="date" id="due-date">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="task-progress"></div>
+      </div>
+</details>
+ </section>
+
+  <section class="sem4">
+    <h2>Semester 4:</h2>
+<details >
+  <summary>Courses</summary>
+  <label>AWS</label>
+  <input type="checkbox"><br>
+  <label>GraphQL</label>
+  <input type="checkbox">
+  <label>DevOps</label>
+  <input type="checkbox">
+  <label>Google clod platform</label>
+  <input type="checkbox">
+</details>
+<details >
+ <summary> Upcoming Task List</summary>
+  <ol id="task-list">
+        <li>Project Presentation - <span>Due: 2025-06-01</span></li>
+      </ol>
+      <div class="task-inputs">
+        <input type="text" id="new-task" placeholder="Task description">
+        <input type="date" id="due-date">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="task-progress"></div>
+      </div>
+</details>
+ </section>
+
+  <section class="sem4">
+    <h2>Semester 5:</h2>
+<details >
+  <summary>Courses</summary>
+  <label>Global immerson program</label>
+  <input type="checkbox"><br>
+  <label>internship</label>
+  
+</details>
+<details >
+ <summary> Upcoming Task List</summary>
+  <ol id="task-list">
+        <li>Project Presentation - <span>Due: 2025-06-01</span></li>
+      </ol>
+      <div class="task-inputs">
+        <input type="text" id="new-task" placeholder="Task description">
+        <input type="date" id="due-date">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="task-progress"></div>
+      </div>
+</details>
+ </section>
+
+  <section class="sem4">
+    <h2>Semester 6:</h2>
+<details >
+  <summary>Courses</summary>
+  <label>AWS</label>
+  <input type="checkbox"><br>
+  <label>GraphQL</label>
+  <input type="checkbox">
+  <label>DevOps</label>
+  <input type="checkbox">
+  <label>Google clod platform</label>
+  <input type="checkbox">
+</details>
+<details >
+ <summary> Upcoming Task List</summary>
+ <ol id="task-list">
+        <li>Project Presentation - <span>Due: 2025-06-01</span></li>
+      </ol>
+      <div class="task-inputs">
+        <input type="text" id="new-task" placeholder="Task description">
+        <input type="date" id="due-date">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="task-progress"></div>
+      </div>
+</details>
+ </section>
+
+  <section class="sem4">
+    <h2>Semester 7:</h2>
+<details >
+  <summary>Courses</summary>
+  <label></label>
+  <input type="checkbox"><br>
+  <label>GraphQL</label>
+  <input type="checkbox">
+  <label>DevOps</label>
+  <input type="checkbox">
+  <label>Google clod platform</label>
+  <input type="checkbox">
+</details>
+<details >
+ <summary> Upcoming Task List</summary>
+  <ol>
+    <div class="task-inputs">
+      <input type="text" id="new-task" placeholder="Task description">
+      <input type="date" id="due-date">
+      <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="task-progress"></div>
+      </div>
+    </div>
+  </ol>
+</details>
+ </section>
+
+  <section class="sem4">
+    <h2>Semester 8:</h2>
+<details >
+  <summary>Courses</summary>
+  <label>AWS</label>
+  <input type="checkbox"><br>
+  <label>GraphQL</label>
+  <input type="checkbox">
+  <label>DevOps</label>
+  <input type="checkbox">
+  <label>Google clod platform</label>
+  <input type="checkbox">
+</details>
+<details >
+ <summary> Upcoming Task List</summary>
+   <ol>
+    <div class="task-inputs">
+      <input type="text" id="new-task" placeholder="Task description">
+      <input type="date" id="due-date">
+      <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="task-progress"></div>
+      </div>
+    </div>
+  </ol>
+</details>
+ </section>
+
+ <script src="Script.js"> </script>
+</body>
+</html>

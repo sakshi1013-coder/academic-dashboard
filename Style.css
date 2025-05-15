@@ -1,0 +1,58 @@
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+  background-color: #a91d54;
+   box-shadow:0px 10px 5px -3px rgb(197, 196, 196);
+   padding: 30px;
+   margin: 15px;
+   font-size: x-large;
+}
+.header img{
+  height: 60px;
+}
+.title{
+   display:flex;
+   align-items: center;
+   justify-content:space-between; 
+   color: white;
+}
+.title p{
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+}
+.icon-bar i {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: wh;
+}
+ol{
+  margin: 20px;
+}
+
+.sem1, .sem2, .sem3, .sem4{
+  background-color:rgb(221, 221, 221);
+  height:auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgb(163, 162, 162);
+  margin: 20px;
+}
+input[type="checkbox"] {
+   padding: 10px;
+    margin: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+button{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+button:hover{
+  background-color: rgb(59, 58, 58);
+}
